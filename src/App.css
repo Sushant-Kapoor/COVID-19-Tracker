@@ -7,20 +7,34 @@ body {
   background-color: #f5f6fa;
 }
 
+html {
+  font-size: 100%;
+}
+
 .app {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .app__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+
+.app__left {
+  flex: 0.9;
 }
 
 .app__stats {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
 }
