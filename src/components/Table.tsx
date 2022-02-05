@@ -1,5 +1,6 @@
 import { map } from "lodash";
 import * as React from "react";
+import "../CSS/table.css";
 
 export interface TablePropsInterface {
   countries: any;
@@ -7,7 +8,7 @@ export interface TablePropsInterface {
 
 const Table: React.FC<TablePropsInterface> = ({ countries }) => {
   return (
-    <div>
+    <div className="table">
       {map(countries, (country: any) => {
         return (
           <tr>
