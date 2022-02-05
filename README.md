@@ -10,9 +10,11 @@ It represents live data of the current _infection rate_, _recovery rate_, _total
 
 Clicking on any country in the map will show data specific to that region. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Technology stack & services used
+
+The project is built using **React** and **TypeScript** for the **frontend**. It pulls in data from the **backend API service disease.sh**.\
+The React components are designed using **MaterialUI framework**. The line graphs are represented using **React-Chart.js.**
 
 ### `npm start`
 
