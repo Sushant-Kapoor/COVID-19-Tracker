@@ -2,7 +2,8 @@
 
 This project is built to show case live tracking of **COVID-19** cases worldwide.\
 It represents live data of the current _infection rate_, _recovery rate_, _total patients recovered_ and _total deaths_.\
-**Dynamic bar graphs** are used to study the data. A **map** is provided which shows different zones.
+**Dynamic bar graphs** are used to study the data.The graphs data is fetched after **14 days**.\ 
+A **map** is provided which shows different zones.
 
 ---
 🟢**Green zones**🟢 denote the number of cases recovered in that region whereas\
